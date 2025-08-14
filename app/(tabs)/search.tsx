@@ -16,6 +16,7 @@ const search = () => {
             const setTimeoutId = setTimeout(() => {
                 if (searchQuery.trim()) {
                     MoviesFn();
+
                 } else {
                     reset();
                 }
